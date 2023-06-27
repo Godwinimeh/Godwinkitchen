@@ -1,0 +1,29 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: darkgreen;
+}
+h5 {
+    font-size: 24px;
+}
+.forgot {
+    text-align: center;
+}
+input {
+    width: 300px;
+    height: 35px;
+}
+.forgot {
+    text-align: center;
+    box-sizing: border-box;
+    background-color: white;
+    position: absolute;
+    box-sizing: border-box;
+    margin-left: 400px;
+    padding: 40px;
+    top: 50px;
+    border-radius: 50px;
+}
+.forgot input[type='submit'] {
+    background-color: darkgreen;
+    font-size: 24px;
+}

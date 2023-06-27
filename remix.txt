@@ -1,0 +1,14 @@
+pragma solidity ^0.8.81;
+
+contract Demo{
+    string public name;
+    function setName(string_name){
+
+        name=_name;
+    }
+    function getName()view public return(string)
+    {
+        return name;
+    }
+}
+//SPDxz
